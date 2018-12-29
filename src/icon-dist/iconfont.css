@@ -1,0 +1,26 @@
+@font-face {
+	font-family: "iconfont";
+	src: url("iconfont.eot?20ccd8648262fe763c8a5c99030ca14f?#iefix") format("embedded-opentype"),
+url("iconfont.woff2?20ccd8648262fe763c8a5c99030ca14f") format("woff2"),
+url("iconfont.woff?20ccd8648262fe763c8a5c99030ca14f") format("woff");
+}
+
+.icon {
+	line-height: 1;
+}
+
+.icon:before {
+	font-family: iconfont !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+
+.icon-support:before {
+	content: "\f101";
+}
+.icon-team:before {
+	content: "\f102";
+}
